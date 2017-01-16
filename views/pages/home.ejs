@@ -1,0 +1,44 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title> My Node Site</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+	<header>
+		<nav class="navbar navbar-inverse">
+		<a href="/" class="navbar-brand"> MY SITE </a>
+		<ul class= "nav navbar-nav">
+			<li> <a href="/"> HOME </a></li>
+			<li> <a href="/about"> ABOUT </a></li>
+			<li> <a href="/contact"> CONTACT </a></li>
+		</ul>
+		</nav>
+
+	</header> -->
+
+	<%- contentFor('hero') %>
+
+	<section class= "hero">
+	<div class= "hero-content">
+		<h2> Welcome to my Lynette's Site ! </h2>
+		<p> The best place to be </p>
+
+	<a href="/" class="btn btn-lg btn-primary"> GET STARTED </a>
+	<a href="/contact" class="btn btn-lg btn-primary"> CONTACT</a>
+
+	</div>
+	</section>
+
+	<%- contentFor('body')%>
+	<div class="jumbotron text-center"> HOME PAGE</div>
+		
+
+<!--	<footer>
+		Awesome Site. Copyright &copy; 2017
+	</footer>
+</body>
+</html> -->
